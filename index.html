@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dev Notes Theme</title>
+</head>
+
+<body>
+    <header class="hero-container">  
+        <section class="hero-content">
+            <nav class="hero-navigation">
+                <ul>
+                    <li id="home"><a href="#home" class="homeLink">Home</a></li>
+                    <li><a href="#about" class="aboutLink">About</a></li>
+                    <li><a href="#notes" class="notesLink">Take Notes</a></li>
+                </ul>
+            </nav>
+
+            <h1 class="hero-title">Daphne Link</h1>
+            <h2 class="hero-subtitle">Software Engineer</h2>
+            <div class="explore-container">
+                <span class="fa-solid fa-angle-down"></span>
+                <a href="#about" class="explore">Explore Website</a>
+            </div>
+        </section>
+    </header>
+    <main> 
+        
+        <section id="about-container" class="about">         
+            <section class="about-content">
+                <h3 class="about-title"><a id="about">About</a></h3>
+                <p>My name is Daphne Link. I build websites and apps.</p>
+                <div class="project-button-container">
+                    <span class="fa-solid fa-angle-down"></span>
+                    <a href="#notes" class="project-button">Try Live Project</a>
+                </div>
+            </section> 
+        </section>
+
+        
+        <section class="button-container">
+            <section class="notes-header-content">
+                <h3 class="notes-title"><a id="notes">Take Notes</a></h3>
+                <button class="addNote-button" id="addNote">
+                    <i class="fas fa-plus"></i> New Note
+                </button>
+            </section>          
+        </section>
+        <section class="all-notes">
+
+        </section>
+    </main>
+    <footer></footer>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
