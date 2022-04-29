@@ -62,6 +62,7 @@ h3 {
 
 a.explore, a.project-button {
     text-decoration: none;
+    color: #fff;
 }
 
 a.explore:active, a.project-button:active,
