@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f0f;
+    color: #fff;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li a:visited, nav li a:active {
+    color: #fff;
+}
+
+.hero-title, .hero-subtitle {
+    justify-content: center;
+}
+
+.about-content, .notes-header-content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+}
+
+a.explore, a.project-button {
+    text-decoration: none;
+}
+
+a.explore:active, a.project-button:active,
+a.explore:visited, a.project-button:visited {
+    color: #fff;
+}
+
+.explore-container:hover, .project-button-container:hover {
+    background-color: #3b3b3b;
+}
+
+.explore-container, .project-button-container {
+    display: inline-block;
+    border: 1px solid #000;
+    border-color: #fff;
+    background-color: #212121;
+    padding: 1rem;
+}
+
+.fa-solid.fa-angle-down {
+    padding: 0 0.5rem;
+}
+
+.explore, .project-button {
+    padding: 0.5rem;
+}
+
+/* about */
+.about {
+    height: 100vh;
+}
+
+/* dev notes section */
+.all-notes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.notes-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
+    margin: 20px;
+}
+
+.notes-textarea {
+    width: 300px;
+    height: 300px;
+    resize: none;
+    background-color: rgba(255,255,255,.05);
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+.note-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2px;
+    background-color: #3b3b3b;
+}
+
+button.delete-note {
+    background-color: transparent;
+    color: #949494;
+    border: none;
+}
+
+.addNote-button {
+    color: #fff;
+    background-color: #212121;
+    border: none;
+    padding: 1rem;
+}
+
+.addNote-button:hover {
+    color: #fff;
+    background-color: #3b3b3b;
+    border: none;
+    padding: 1rem;
+}
+
+.fas.fa-plus {
+    color: #fff;
+}
+
+main {
+    margin-bottom: 200px;
+}
