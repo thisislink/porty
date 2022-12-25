@@ -136,14 +136,14 @@ button.delete-note {
     border: none;
 }
 
-.addNote-button {
+.addNote-button, .back-to-top-button-notes {
     color: #fff;
     background-color: #212121;
     border: none;
     padding: 1rem;
 }
 
-.addNote-button:hover {
+.addNote-button:hover, .back-to-top-button-notes:hover {
     color: #fff;
     background-color: #3b3b3b;
     border: none;
