@@ -60,21 +60,25 @@ h3 {
     font-size: 1.5rem;
 }
 
-a.explore, a.project-button {
+a.explore, a.project-button,
+.back-to-top-button {
     text-decoration: none;
     color: #fff;
 }
 
 a.explore:active, a.project-button:active,
-a.explore:visited, a.project-button:visited {
+a.explore:visited, a.project-button:visited,
+a.back-to-top-button:active, a.back-to-top-button:visited {
     color: #fff;
 }
 
-.explore-container:hover, .project-button-container:hover {
+.explore-container:hover, .project-button-container:hover,
+.back-to-top-button-container:hover {
     background-color: #3b3b3b;
 }
 
-.explore-container, .project-button-container {
+.explore-container, .project-button-container, 
+.back-to-top-button-container {
     display: inline-block;
     border: 1px solid #000;
     border-color: #fff;
@@ -86,7 +90,7 @@ a.explore:visited, a.project-button:visited {
     padding: 0 0.5rem;
 }
 
-.explore, .project-button {
+.explore, .project-button, .back-to-top-button {
     padding: 0.5rem;
 }
 
